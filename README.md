@@ -1,10 +1,10 @@
 
 <div align="center" style="margin: 20px;">
-    <a href="https://codeclimate.com/github/omegaui/chat_desk/maintainability"><img src="https://api.codeclimate.com/v1/badges/22ee0cd01d57542e4f45/maintainability" /></a>
-    <a href="https://github.com/omegaui/chat_desk/actions"><img src="https://github.com/omegaui/chat_desk/actions/workflows/build-for-desktop.yml/badge.svg" /></a>
-    <img src="https://img.shields.io/github/downloads/omegaui/chat_desk/total?style=social" />
-    <img src="https://img.shields.io/github/v/release/omegaui/chat_desk" />
-    <img src="https://img.shields.io/github/license/omegaui/chat_desk" />
+    <a href="https://codeclimate.com/github/heorhiikanir/chat_desk/maintainability"><img src="https://api.codeclimate.com/v1/badges/22ee0cd01d57542e4f45/maintainability" /></a>
+    <a href="https://github.com/heorhiikanir/chat_desk/actions"><img src="https://github.com/heorhiikanir/chat_desk/actions/workflows/build-for-desktop.yml/badge.svg" /></a>
+    <img src="https://img.shields.io/github/downloads/heorhiikanir/chat_desk/total?style=social" />
+    <img src="https://img.shields.io/github/v/release/heorhiikanir/chat_desk" />
+    <img src="https://img.shields.io/github/license/heorhiikanir/chat_desk" />
 </div>
 
 [alpha-preview.webm](https://user-images.githubusercontent.com/73544069/222953852-a379b891-a3f8-4cb9-bb55-848041664768.webm)
@@ -36,7 +36,7 @@ Head over to **Releases**
 ### Linux One Line Install
 
 ```shell
-curl "https://raw.githubusercontent.com/omegaui/chat_desk_linux_install_script/main/script/install-linux.sh" | sh
+curl "https://raw.githubusercontent.com/heorhiikanir/chat_desk_linux_install_script/main/script/install-linux.sh" | sh
 ```
 
 ### Windows and Mac
@@ -44,8 +44,8 @@ Apart from setup, you are required to download `chat_desk_core` & `pubspec.yml` 
 
 Run the following to download it,
 ```shell
-wget https://raw.githubusercontent.com/omegaui/chat_desk_core/main/bin/<platform>/chat_desk_core.exe
-wget https://raw.githubusercontent.com/omegaui/chat_desk_core/main/pubspec.yml
+wget https://raw.githubusercontent.com/heorhiikanir/chat_desk_core/main/bin/<platform>/chat_desk_core.exe
+wget https://raw.githubusercontent.com/heorhiikanir/chat_desk_core/main/pubspec.yml
 ```
 
 where, platform is either **windows** or **mac**. 
@@ -59,14 +59,14 @@ where, platform is either **windows** or **mac**.
 
 - **Clone the repo**
 ```shell
-git clone https://github.com/omegaui/chat_desk
+git clone https://github.com/heorhiikanir/chat_desk
 cd chat_desk
 ```
 
 - Getting Dependencies
 ```shell
 flutter pub get
-wget https://raw.githubusercontent.com/omegaui/chat_desk_core/main/bin/<platform>/chat_desk_core.exe
+wget https://raw.githubusercontent.com/heorhiikanir/chat_desk_core/main/bin/<platform>/chat_desk_core.exe
 # for linux
 # sudo chmod 777 chat_desk_core.exe
 ```
